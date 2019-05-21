@@ -14,6 +14,7 @@ public class ActivitiConfig {
     //二笔
     //流程配置，与spring整合采用SpringProcessEngineConfiguration这个实现
     //shabi
+    //傻屌
     @Bean
     public ProcessEngineConfiguration processEngineConfiguration(DataSource dataSource, PlatformTransactionManager transactionManager){
         SpringProcessEngineConfiguration processEngineConfiguration = new SpringProcessEngineConfiguration();
